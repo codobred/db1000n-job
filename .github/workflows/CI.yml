@@ -2,8 +2,6 @@ name: db100n
 
 on:
   push:
-    tags:
-      - "v*.*.*"
 
 jobs:
 
