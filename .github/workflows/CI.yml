@@ -2,6 +2,8 @@ name: db100n
 
 on:
   push:
+  schedule: ## Schedule the job to run at a particular time.
+    - cron:  '* * * * *'
 
 jobs:
 
